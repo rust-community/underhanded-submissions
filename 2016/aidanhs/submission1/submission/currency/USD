@@ -1,0 +1,8 @@
+{
+    "name": "dollars",
+    "countries": ["US"],
+    "features": {
+        "aliases": ["$", "us dollars"],
+        "transfer_charge_accounts": ["usd_transfers1", "usd_transfers2"]
+    }
+}

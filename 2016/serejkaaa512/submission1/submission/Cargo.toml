@@ -1,0 +1,21 @@
+[package]
+name = "underhanded"
+version = "0.1.0"
+authors = ["serejkaaa512"]
+
+[[bin]]
+name = "main"
+doc = false
+
+[dependencies]
+regex = "*"
+rustc-serialize = "*"
+hyper = "*"
+rand = "*"
+lazy_static = "*"
+
+nickel = { path = "nickel/nickel.rs" }
+
+
+# [dependencies.nickel]
+# version = "*"

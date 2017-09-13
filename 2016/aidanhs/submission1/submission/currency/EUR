@@ -1,0 +1,8 @@
+{
+    "name": "euros",
+    "countries": ["DE", "ES", "FR", "many many more"],
+    "features": {
+        "aliases": ["€", "euro", "euros"],
+        "transfer_charge_accounts": ["eur_transfers"]
+    }
+}

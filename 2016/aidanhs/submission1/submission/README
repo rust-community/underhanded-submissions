@@ -1,0 +1,25 @@
+QuadCurr
+========
+
+QuadCurr is the Quadrilateral payment processor. Because P2P is
+exciting, QuadCurr makes no distinction between merchants and
+customers - it's all just transactions between accounts!
+
+There are three api calls:
+
+ - POST /makeaccount {"account_name": "abc", "currency": "USD"}
+ - POST /deposit {"account_name": "abc", "amount": 50}
+ - POST /transfer {"account_from": "abc", "account_to": "cde", "amount": 50}
+
+These don't yet have authentication so the initial release will
+be restricted to a trusted set of clients - we'll expand this once
+a username and password system is set up (very shortly).
+
+For convenience, QuadCurr supports currency aliases. For example,
+you can use "$" instead of USD! A full list of available aliases
+will be released soon.
+
+Although Quadrilateral is a global business, we don't yet support
+currency conversion - currency gets fixed at account creation time
+and all transfers must be between accounts set up with the same
+currency.

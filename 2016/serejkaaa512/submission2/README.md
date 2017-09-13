@@ -1,0 +1,1 @@
+To check the exploit simply run post_pay_to_hacker_check test in server.rs. 

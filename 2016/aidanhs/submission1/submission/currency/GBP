@@ -1,0 +1,8 @@
+{
+    "name": "pounds",
+    "countries": ["UK"],
+    "features": {
+        "aliases": ["£", "sterling"],
+        "transfer_charge_accounts": ["gbp_transfers"]
+    }
+}
